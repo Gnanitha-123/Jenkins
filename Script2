@@ -1,0 +1,11 @@
+node {
+    stage('Build') {
+        bat 'echo Building project...'
+    }
+    stage('Test') {
+        bat 'echo Running tests...'
+    }
+    stage('Deploy') {
+        bat 'echo Deploying application...'
+    }
+}
